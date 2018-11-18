@@ -55,17 +55,17 @@ public class LoginPage extends Application {
 				}
 			}
 		});
-		username.setMinWidth(120);
-		password.setMinWidth(120);
+		username.setMinWidth(10);
+		password.setMinWidth(10);
 		String fxmlResource = "LoginPage.fxml";
 		Parent panel;
 		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
 		Scene scene = new Scene(panel);
-		Stage stage = new Stage();
-		stage.setScene(scene);
-		stage.show();
-		primaryStage.setResizable(true);
-	
+		primaryStage.setTitle("RestaurantAdvisor");
+		primaryStage.setScene(scene);
+		primaryStage.setHeight(720);
+		primaryStage.setWidth(720);
+		primaryStage.show();
 	}
 
 	public static void main(String[] args) {
