@@ -32,6 +32,9 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.scene.Parent;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 
 public class LoginPage extends Application {
 
@@ -53,23 +56,18 @@ public class LoginPage extends Application {
 			}
 		});
 		username.setMinWidth(120);
-        password.setMinWidth(120);
-       
-           FlowPane root = new FlowPane();
-           root.setPadding(new Insets(10));
-           root.getChildren().addAll(username,password,login);
-           try {
-               FXMLLoader loader = new FXMLLoader(getClass().getResource("FinalProject/src/LoginPage.fxml"));
-               loader.setController(this);
-               root = loader.load();
-               root.getStylesheets().add("/application/application.css");
-               primaryStage.setScene(new Scene(root));
-           } catch (Exception e) {
-               System.out.println(e);
-           }
-           primaryStage.show();
-	}
+		password.setMinWidth(120);
+		String fxmlResource = "LoginPage.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setScene(scene);
+		stage.show();
+		primaryStage.setResizable(true);
 	
+	}
+
 	public static void main(String[] args) {
 		launch(args);
 	}
