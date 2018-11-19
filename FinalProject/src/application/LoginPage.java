@@ -37,24 +37,35 @@ import javafx.stage.StageStyle;
 import javafx.scene.Parent;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.ScrollPane.ScrollBarPolicy;
+import javafx.scene.Node;
 
 public class LoginPage extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		try {
-		TextField username = new TextField("Username");
+		TextField username = new TextField();
 		PasswordField password = new PasswordField();
 		Account account = new Account();
 		Button login = new Button("Login");
 		login.setOnAction(new EventHandler<ActionEvent>() {
 
-			@Override
+			@FXML
 			public void handle(ActionEvent event) {
 				int check1 = account.getUsername().compareTo(username.getCharacters().toString());
 				int check2 = account.getPassword().compareTo(password.getCharacters().toString());
 				if (check1 == 0 && check2 == 0) {
-					System.out.println("yay");
+					Parent next;
+					try {
+						next = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
+						Scene scene = new Scene(next);
+						Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+						window.setScene(scene);
+						window.show();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 			}
 		});
