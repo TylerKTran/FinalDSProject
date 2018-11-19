@@ -9,24 +9,33 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1010.0" prefWidth="1366.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
-  <children>
-    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="1010.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1366.0" />
-    <Rectangle arcHeight="75.0" arcWidth="75.0" fill="WHITE" height="524.0" layoutX="238.0" layoutY="364.0" smooth="true" stroke="TRANSPARENT" strokeLineCap="SQUARE" strokeType="INSIDE" strokeWidth="10.0" width="890.0" />
-    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="583.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true" />
-    <ImageView fitHeight="285.07601568327794" fitWidth="825.587158203125" layoutX="270.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
-      <image>
-        <Image url="file:/C:/Users/Tyler/OneDrive/Documents/RestaurantAdvisorLogo.PNG" />
-      </image>
-    </ImageView>
-    <Text layoutX="270.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login in with your RestaurantAdvisor Account :" textAlignment="LEFT">
-      <font>
-        <Font size="36.0" />
-      </font>
-    </Text>
-    <Button layoutX="270.0" layoutY="762.0" mnemonicParsing="false" text="Register Account" textFill="#ebebeb" wrapText="false" />
-    <Button layoutX="912.0" layoutY="762.0" mnemonicParsing="false" text="Login" />
-    <PasswordField layoutX="270.0" layoutY="608.0" prefWidth="499.0" promptText="Password" />
-    <TextField layoutX="270.0" layoutY="505.0" mouseTransparent="false" prefWidth="499.0" promptText="Email Address" />
-  </children>
+<AnchorPane id="AnchorPane" maxHeight="-Infinity"
+	maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+	prefHeight="400" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/2.2">
+	<children>
+		<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db"
+			height="400" layoutX="0.0" layoutY="0.0" stroke="BLACK"
+			strokeType="INSIDE" width="400" />
+		<Rectangle arcHeight="75.0" arcWidth="75.0" fill="WHITE"
+			height="180" layoutX="75" layoutY="150" smooth="true"
+			stroke="TRANSPARENT" strokeLineCap="SQUARE" strokeType="INSIDE"
+			strokeWidth="10.0" width="250" />
+		<Text layoutX="95" layoutY= "175" strokeType="OUTSIDE"
+			strokeWidth="0.0"
+			text="Login in with your RestaurantAdvisor Account :"
+			textAlignment="LEFT">
+			<font>
+				<Font size="10.0" />
+			</font>
+		</Text>
+		<Button id="register" layoutX="95" layoutY="270" mnemonicParsing="false"
+			text="Register Account" wrapText="false" />
+		<Button id="Login" layoutX="250" layoutY="270" mnemonicParsing="false"
+			text="Login" />
+		<PasswordField id="password" layoutX="95" layoutY="230"
+			prefWidth="200" promptText="Password" />
+		<TextField id="emailaddress" layoutX="95" layoutY="192.5"
+			mouseTransparent="false" prefWidth="200" promptText="Email Address" />
+	</children>
 </AnchorPane>

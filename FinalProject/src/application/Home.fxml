@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-400" maxWidth="-400" minHeight="-400" minWidth="-400" prefHeight="1821.1883544921875" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="432.0" layoutX="0.0" layoutY="315.0" strokeType="INSIDE" strokeWidth="10.0" width="1152.0">
+      <stroke>
+        <Color blue="0.584" green="0.776" red="0.043" fx:id="x1" />
+      </stroke>
+    </Rectangle>
+    <ImageView fitHeight="216.06018829345703" fitWidth="625.7156073057716" layoutX="263.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:\C:\Users\Tyler\source\repos\FinalDSProject\FinalProject\src\application\RestaurantAdvisors.PNG" />
+      </image>
+    </ImageView>
+    <Button layoutX="989.0" layoutY="14.0" mnemonicParsing="false" text="Login" />
+    <ImageView fitHeight="294.05571842533857" fitWidth="1151.9998779296875" layoutX="0.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../../../FakeMap.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="469.18831918626734" fitWidth="1151.9999389648438" layoutX="0.0" layoutY="1351.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../../../ReviewExample.PNG" />
+      </image>
+    </ImageView>
+    <TextField layoutX="14.0" layoutY="738.0" prefWidth="538.0" text="Search for restaurants near you..." />
+    <Polygon fill="$x1" layoutX="576.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <points>
+        <Double fx:value="-50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="0.0" />
+        <Double fx:value="-60.0" />
+      </points>
+    </Polygon>
+    <Polygon fill="$x1" layoutX="150.0" layoutY="541.0" stroke="TRANSPARENT" strokeType="INSIDE">
+      <points>
+        <Double fx:value="-50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="0.0" />
+        <Double fx:value="-60.0" />
+      </points>
+    </Polygon>
+    <Polygon fill="$x1" layoutX="989.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <points>
+        <Double fx:value="-50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="0.0" />
+        <Double fx:value="-60.0" />
+      </points>
+    </Polygon>
+    <ImageView fitHeight="309.9375" fitWidth="1152.0" layoutX="0.0" layoutY="1041.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../../../OrderExample.PNG" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
