@@ -3,6 +3,7 @@
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
@@ -11,8 +12,12 @@
 
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <children>
-    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="720.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="720.0" />
-    <Rectangle arcHeight="75.0" arcWidth="75.0" fill="WHITE" height="640.0" layoutX="0.0" layoutY="29.0" smooth="true" stroke="TRANSPARENT" strokeLineCap="SQUARE" strokeType="INSIDE" strokeWidth="10.0" width="720.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="720.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="720.0">
+      <effect>
+        <Reflection />
+      </effect>
+    </Rectangle>
+    <Rectangle arcHeight="75.0" arcWidth="75.0" fill="WHITE" height="640.0" layoutX="-2.0" layoutY="29.0" smooth="true" stroke="TRANSPARENT" strokeLineCap="SQUARE" strokeType="INSIDE" strokeWidth="10.0" width="720.0" />
     <Text layoutX="-12.0" layoutY="153.0" scaleX="0.8214450269684428" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login in with your RestaurantAdvisor Account :" textAlignment="LEFT">
       <font>
         <Font size="36.0" />
@@ -22,5 +27,7 @@
     <Button layoutX="533.0" layoutY="447.0" mnemonicParsing="false" text="Login" />
     <PasswordField layoutX="110.0" layoutY="349.0" prefWidth="499.0" promptText="Password" />
     <TextField layoutX="110.0" layoutY="223.0" mouseTransparent="false" prefWidth="499.0" promptText="Email Address" />
+    <ScrollBar layoutX="706.0" layoutY="0.0" orientation="VERTICAL" prefHeight="720.0" />
+    <ScrollBar layoutX="-8.0" layoutY="708.0" prefWidth="720.0" />
   </children>
 </AnchorPane>

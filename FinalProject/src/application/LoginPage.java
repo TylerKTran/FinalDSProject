@@ -1,5 +1,7 @@
 package application;
 
+import java.io.IOException;
+import javafx.scene.layout.VBox;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -40,6 +42,7 @@ public class LoginPage extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		try {
 		TextField username = new TextField("Username");
 		PasswordField password = new PasswordField();
 		Account account = new Account();
@@ -55,17 +58,18 @@ public class LoginPage extends Application {
 				}
 			}
 		});
-		username.setMinWidth(10);
-		password.setMinWidth(10);
-		String fxmlResource = "LoginPage.fxml";
+		String fxmlResource = "LoginPage2.fxml";
 		Parent panel;
 		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
 		Scene scene = new Scene(panel);
 		primaryStage.setTitle("RestaurantAdvisor");
 		primaryStage.setScene(scene);
-		primaryStage.setHeight(720);
-		primaryStage.setWidth(720);
+		primaryStage.setHeight(400);
+		primaryStage.setWidth(600);
 		primaryStage.show();
+		} catch (Exception e) {
+            System.out.println(e);
+        }
 	}
 
 	public static void main(String[] args) {
