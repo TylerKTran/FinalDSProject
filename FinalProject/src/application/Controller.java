@@ -1,6 +1,12 @@
 package application;
 
 import java.io.IOException;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import java.io.IOException;
 import javafx.scene.layout.VBox;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -39,25 +45,52 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.Node;
 
-public class LoginPage extends Application {
+public class Controller {
+	@FXML
+	private TextField username;
+	@FXML
+	private PasswordField password;
+	@FXML
+	private Account account = new Account();;
+	@FXML
+	private Button login;
 
-	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public Controller() {
+
+	}
+
+	@FXML
+	public void loginAttempt(ActionEvent event) throws Exception {
 		try {
-			String fxmlResource = "LoginPage.fxml";
-			Parent panel;
-			panel = FXMLLoader.load(getClass().getResource(fxmlResource));
-			Scene scene = new Scene(panel);
-			primaryStage.setTitle("RestaurantAdvisor");
-			primaryStage.setScene(scene);
-			primaryStage.show();
+			int check1 = getUsername().compareTo(account.getUsername());
+			int check2 = getPassword().compareTo(account.getPassword());
+			if (check1 == 0 && check2 == 0) {
+				Stage firstStage = (Stage) login.getScene().getWindow();
+			    firstStage.close();
+				String fxmlResource = "HomePage.fxml";
+				Parent panel;
+				panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+				Scene scene = new Scene(panel);
+				Stage stage = new Stage();
+				stage.setTitle("RestaurantAdvisor");
+				stage.setScene(scene);
+				stage.show();
+			} else {
+				login.setText("FAILED");
+			}
 		} catch (Exception e) {
 			System.out.println(e);
 		}
+
 	}
 
-	public static void main(String[] args) {
-		launch(args);
+	@FXML
+	public String getUsername() {
+		return username.getText();
 	}
 
+	@FXML
+	public String getPassword() {
+		return password.getText();
+	}
 }

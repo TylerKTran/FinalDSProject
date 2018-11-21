@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import java.util.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="LoginPage" prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
-  <!-- TODO Add Nodes -->
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <children>
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12abff" height="400.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
     <ImageView fitHeight="103.811279296875" fitWidth="310.75974113769325" layoutX="45.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
@@ -18,9 +18,9 @@
       </image>
     </ImageView>
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="202.0" layoutX="14.0" layoutY="129.0" smooth="true" stroke="BLACK" strokeLineCap="SQUARE" strokeType="INSIDE" width="372.0" />
-    <TextField fx:id="username" layoutX="45.0" layoutY="178.0" prefWidth="310.759765625" promptText="Username" />
-    <PasswordField fx:id="password" layoutX="45.0" layoutY="219.0" prefWidth="310.759765625" promptText="Password" />
-    <Button fx:id="login" layoutX="159.0" layoutY="269.0" mnemonicParsing="false" onAction="#loginAttempt" prefHeight="43.0" prefWidth="83.0" text="LOGIN">
+    <TextField layoutX="45.0" layoutY="178.0" prefWidth="310.759765625" promptText="Username" />
+    <PasswordField layoutX="45.0" layoutY="219.0" prefWidth="310.759765625" promptText="Password" />
+    <Button layoutX="159.0" layoutY="269.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="83.0" text="LOGIN">
       <font>
         <Font name="Ebrima" size="18.0" />
       </font>

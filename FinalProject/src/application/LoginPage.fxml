@@ -3,30 +3,31 @@
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1010.0" prefWidth="1366.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <children>
-    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="1010.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1366.0" />
-    <Rectangle arcHeight="75.0" arcWidth="75.0" fill="WHITE" height="524.0" layoutX="238.0" layoutY="364.0" smooth="true" stroke="TRANSPARENT" strokeLineCap="SQUARE" strokeType="INSIDE" strokeWidth="10.0" width="890.0" />
-    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="583.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true" />
-    <ImageView fitHeight="285.07601568327794" fitWidth="825.587158203125" layoutX="270.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
-      <image>
-        <Image url="file:/C:/Users/Tyler/OneDrive/Documents/RestaurantAdvisorLogo.PNG" />
-      </image>
-    </ImageView>
-    <Text layoutX="270.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login in with your RestaurantAdvisor Account :" textAlignment="LEFT">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="720.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="720.0">
+      <effect>
+        <Reflection />
+      </effect>
+    </Rectangle>
+    <Rectangle arcHeight="75.0" arcWidth="75.0" fill="WHITE" height="640.0" layoutX="-2.0" layoutY="29.0" smooth="true" stroke="TRANSPARENT" strokeLineCap="SQUARE" strokeType="INSIDE" strokeWidth="10.0" width="720.0" />
+    <Text layoutX="-12.0" layoutY="153.0" scaleX="0.8214450269684428" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login in with your RestaurantAdvisor Account :" textAlignment="LEFT">
       <font>
         <Font size="36.0" />
       </font>
     </Text>
-    <Button layoutX="270.0" layoutY="762.0" mnemonicParsing="false" text="Register Account" textFill="#ebebeb" wrapText="false" />
-    <Button layoutX="912.0" layoutY="762.0" mnemonicParsing="false" text="Login" />
-    <PasswordField layoutX="270.0" layoutY="608.0" prefWidth="499.0" promptText="Password" />
-    <TextField layoutX="270.0" layoutY="505.0" mouseTransparent="false" prefWidth="499.0" promptText="Email Address" />
+    <Button layoutX="119.0" layoutY="447.0" mnemonicParsing="false" text="Register Account" textFill="#ebebeb" wrapText="false" />
+    <Button layoutX="533.0" layoutY="447.0" mnemonicParsing="false" text="Login" />
+    <PasswordField layoutX="110.0" layoutY="349.0" prefWidth="499.0" promptText="Password" />
+    <TextField layoutX="110.0" layoutY="223.0" mouseTransparent="false" prefWidth="499.0" promptText="Email Address" />
+    <ScrollBar layoutX="706.0" layoutY="0.0" orientation="VERTICAL" prefHeight="720.0" />
+    <ScrollBar layoutX="-8.0" layoutY="708.0" prefWidth="720.0" />
   </children>
 </AnchorPane>

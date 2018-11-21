@@ -1,18 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
-<?import java.util.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.paint.*?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1762.0" prefWidth="1152.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<AnchorPane fx:id="HomePage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="815.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
+  <!-- TODO Add Nodes -->
   <children>
-    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1aa7db" height="432.0" layoutX="0.0" layoutY="315.0" stroke="#0bc695" strokeType="INSIDE" strokeWidth="10.0" width="1152.0" />
-    <ImageView fitHeight="216.06018829345703" fitWidth="625.7156073057716" layoutX="263.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="0.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="0.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="256.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="file:/C:/Users/Tyler/OneDrive/Documents/RestaurantAdvisorLogo.PNG" />
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="310.0" layoutY="153.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Popular Restaurants Near Your Location">
+      <font>
+        <Font name="HP Simplified" size="12.0" />
+      </font>
+    </Text>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.54229736328125" layoutX="14.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="372.9998779296875" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.54229736328125" layoutX="431.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="372.9998779296875" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.54229736328125" layoutX="431.0" layoutY="284.0" stroke="BLACK" strokeType="INSIDE" width="372.9998779296875" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.54229736328125" layoutX="14.0" layoutY="284.0" stroke="BLACK" strokeType="INSIDE" width="372.9998779296875" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.54229736328125" layoutX="431.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="372.9998779296875" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.54229736328125" layoutX="14.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="372.9998779296875" />
+    <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="29.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg.jpg" />
+      </image>
+    </ImageView>
+    <Text layoutX="160.0" layoutY="199.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue's Egg">
+      <font>
+        <Font name="Leelawadee UI" size="12.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Button layoutX="318.0" layoutY="248.0" mnemonicParsing="false" text="Order" />
+    <Button layoutX="736.0" layoutY="488.0" mnemonicParsing="false" text="Order" />
+    <Button layoutX="736.0" layoutY="365.0" mnemonicParsing="false" text="Order" />
+    <Button layoutX="736.0" layoutY="248.0" mnemonicParsing="false" text="Order" />
+    <Button layoutX="319.0" layoutY="488.0" mnemonicParsing="false" text="Order" />
+    <Button layoutX="318.0" layoutY="365.0" mnemonicParsing="false" text="Order" />
+    <Text font="$x1" layoutX="580.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Jalisco's On North" />
+    <Text font="$x1" layoutX="578.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Calderone Club" />
+    <Text font="$x1" layoutX="576.0" layoutY="199.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Cafe Benelux" />
+    <Text font="$x1" layoutX="164.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Oakland Gyros" />
+    <Text font="$x1" layoutX="160.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Odd Duck" />
+    <Text layoutX="161.0" layoutY="214.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="American, Brunch">
+      <font>
+        <Font name="Leelawadee UI" size="8.0" fx:id="x2" />
+      </font>
+    </Text>
+    <Text font="$x2" layoutX="575.0" layoutY="214.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="European, Dinner" />
+    <Text font="$x2" layoutX="575.0" layoutY="451.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Mexican, Dinner" />
+    <Text font="$x2" layoutX="573.0" layoutY="331.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Italian, Dinner" />
+    <Text font="$x2" layoutX="159.0" layoutY="449.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Greek, Dinner" />
+    <Text font="$x2" layoutX="161.0" layoutY="331.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="American, Dinner" />
+    <Text font="$x2" layoutX="171.0" layoutY="224.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="317 N 76th St, Milwaukee, WI 53213" />
+    <Text font="$x2" layoutX="165.0" layoutY="232.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 7AM-2PM Everyday" />
+    <Text font="$x2" layoutX="159.0" layoutY="242.0" scaleX="1.316353800987957" scaleY="0.96194579819116" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 299-3180" />
+    <Text font="$x2" layoutX="587.0" layoutY="224.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="346 N Broadway, Milwaukee, WI 53202" />
+    <Text font="$x2" layoutX="577.0" layoutY="234.0" scaleX="1.107773426391745" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 7AM-11PM Mon-Fri, 8AM-12AM Sat, 8AM-11PM Sun" />
+    <Text font="$x2" layoutX="574.0" layoutY="244.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 501-2500" />
+    <Text font="$x2" layoutX="591.0" layoutY="341.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="842 N Old World 3rd St, Milwaukee, WI 53203" />
+    <Text font="$x2" layoutX="548.0" layoutY="351.0" scaleX="0.8666057512195728" scaleY="0.9690894598449249" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 11AM-3PM &amp; 5PM-11PM Mon-Thu, 11AM-12AM Fri, 12PM-12AM Sat" />
+    <Text font="$x2" layoutX="574.0" layoutY="363.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 273-3236" />
+    <Text font="$x2" layoutX="177.0" layoutY="341.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="2352 S Kinnickinnic Ave, Milwaukee, WI 53207" />
+    <Text font="$x2" layoutX="166.0" layoutY="351.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 3PM-12AM Everyday" />
+    <Text font="$x2" layoutX="160.0" layoutY="361.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 763-5881" />
+    <Text font="$x2" layoutX="175.0" layoutY="460.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="2867 N Oakland Ave, Milwaukee, WI 53211" />
+    <Text font="$x2" layoutX="177.0" layoutY="469.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 10:30AM-3AM Mon-Sat, 11AM-3AM Sun" />
+    <Text font="$x2" layoutX="159.0" layoutY="480.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 963-1393" />
+    <Text font="$x2" layoutX="588.0" layoutY="461.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="2207 E North Ave, Milwaukee, WI 53202" />
+    <Text font="$x2" layoutX="592.0" layoutY="471.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 11AM-3AM Mon-Thu, 11AM-4AM Fri-Sat" />
+    <Text font="$x2" layoutX="574.0" layoutY="482.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 291-0645" />
+    <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="453.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../jaliscos.jpg" />
+      </image>
+    </ImageView>
+    <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="29.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../oakland-gyros.jpg" />
+      </image>
+    </ImageView>
+    <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="453.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../calderone-club.jpg" />
+      </image>
+    </ImageView>
+    <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="29.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../odd-duck.jpg" />
+      </image>
+    </ImageView>
+    <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="453.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../cafe-benelux.jpg" />
+      </image>
+    </ImageView>
+    <Button layoutX="254.0" layoutY="248.0" mnemonicParsing="false" text="Reviews" />
+    <Button layoutX="254.0" layoutY="365.0" mnemonicParsing="false" text="Reviews" />
+    <Button layoutX="672.0" layoutY="488.0" mnemonicParsing="false" text="Reviews" />
+    <Button layoutX="672.0" layoutY="365.0" mnemonicParsing="false" text="Reviews" />
+    <Button layoutX="672.0" layoutY="248.0" mnemonicParsing="false" text="Reviews" />
+    <Button layoutX="254.0" layoutY="488.0" mnemonicParsing="false" text="Reviews" />
+    <Text font="$x1" layoutX="336.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.7" />
+    <Text font="$x1" layoutX="748.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.4" />
+    <Text font="$x1" layoutX="748.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.1" />
+    <Text font="$x1" layoutX="336.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.7" />
+    <Text font="$x1" layoutX="748.0" layoutY="198.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.4" />
+    <Text font="$x1" layoutX="336.0" layoutY="199.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.6" />
+    <ImageView fitHeight="24.64544677734375" fitWidth="24.64544677734375" layoutX="357.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../full-star.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="24.64544677734375" fitWidth="24.64544677734375" layoutX="766.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../full-star.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="24.64544677734375" fitWidth="24.64544677734375" layoutX="766.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../full-star.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="24.64544677734375" fitWidth="24.64544677734375" layoutX="766.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../full-star.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="24.64544677734375" fitWidth="24.64544677734375" layoutX="357.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../full-star.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="24.64544677734375" fitWidth="24.64544677734375" layoutX="357.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../full-star.png" />
       </image>
     </ImageView>
   </children>
