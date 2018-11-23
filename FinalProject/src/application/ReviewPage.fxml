@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="WriteReview" fx:id="ReviewPage" prefHeight="600.0" prefWidth="815.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="600.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="845.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="0.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="845.0" />
+    <TextArea fx:id="writtenReview" layoutX="137.0" layoutY="288.0" prefHeight="110.0" prefWidth="600.0" promptText="Write a review (200 characters max)" wrapText="true" />
+    <TextField fx:id="accountName" layoutX="137.0" layoutY="174.0" prefWidth="200.0" promptText="Name" text="ACCOUNT" />
+    <TextField fx:id="restaurantName" layoutX="137.0" layoutY="248.0" prefWidth="200.0" promptText="Restaurant Name" text="" />
+    <TextField fx:id="rating" layoutX="137.0" layoutY="212.0" prefWidth="200.0" promptText="Rating (1-5)" text="" />
+    <Text fill="WHITE" layoutX="398.0" layoutY="143.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Write A Review">
+      <font>
+        <Font name="HP Simplified Bold" size="12.0" />
+      </font>
+    </Text>
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="292.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fx:id="reviewStatus" fill="WHITE" layoutX="188.0" layoutY="440.0" scaleX="1.7100304034581462" scaleY="1.4709039499195398" strokeType="OUTSIDE" strokeWidth="0.0" text="When finished, press submit!">
+      <font>
+        <Font name="HP Simplified" size="12.0" />
+      </font>
+    </Text>
+    <Button id="backButton" fx:id="submit" layoutX="587.0" layoutY="416.0" mnemonicParsing="false" onAction="#submitReview" prefHeight="39.0" prefWidth="150.0" text="Submit">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>

@@ -25,5 +25,6 @@
         <Font name="Ebrima" size="18.0" />
       </font>
     </Button>
+    <Text id="status" fx:id="loginStatus" fill="BLACK" layoutX="45.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Login" />
   </children>
 </AnchorPane>

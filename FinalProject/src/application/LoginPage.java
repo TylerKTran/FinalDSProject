@@ -44,7 +44,7 @@ public class LoginPage extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		try {
-			String fxmlResource = "LoginPage.fxml";
+			String fxmlResource = "ReviewPage.fxml";
 			Parent panel;
 			panel = FXMLLoader.load(getClass().getResource(fxmlResource));
 			Scene scene = new Scene(panel);
