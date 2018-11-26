@@ -104,11 +104,11 @@
       </image>
     </ImageView>
     <Button id="reviewButton" fx:id="reviewButton1" layoutX="255.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToReviews1" text="Reviews" />
-    <Button id="reviewButton" fx:id="reviewButton3" layoutX="254.0" layoutY="365.0" mnemonicParsing="false" text="Reviews" />
-    <Button id="reviewButton" fx:id="reviewButton6" layoutX="672.0" layoutY="488.0" mnemonicParsing="false" text="Reviews" />
-    <Button id="reviewButton" fx:id="reviewButton4" layoutX="672.0" layoutY="365.0" mnemonicParsing="false" text="Reviews" />
-    <Button id="reviewButton" fx:id="reviewButton2" layoutX="672.0" layoutY="248.0" mnemonicParsing="false" text="Reviews" />
-    <Button id="reviewButton" fx:id="reviewButton5" layoutX="255.0" layoutY="488.0" mnemonicParsing="false" text="Reviews" />
+    <Button id="reviewButton" fx:id="reviewButton3" layoutX="254.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToReviews3" text="Reviews" />
+    <Button id="reviewButton" fx:id="reviewButton6" layoutX="672.0" layoutY="488.0" mnemonicParsing="false" onAction="#goToReviews6" text="Reviews" />
+    <Button id="reviewButton" fx:id="reviewButton4" layoutX="672.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToReviews4" text="Reviews" />
+    <Button id="reviewButton" fx:id="reviewButton2" layoutX="672.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToReviews2" text="Reviews" />
+    <Button id="reviewButton" fx:id="reviewButton5" layoutX="255.0" layoutY="488.0" mnemonicParsing="false" onAction="#goToReviews5" text="Reviews" />
     <Text font="$x1" layoutX="336.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.7" />
     <Text font="$x1" layoutX="748.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.4" />
     <Text font="$x1" layoutX="748.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="4.1" />

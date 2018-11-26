@@ -150,6 +150,76 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
+	
+	@FXML
+	public void goToReviews2() throws IOException {
+		Stage firstStage = (Stage) reviewButton2.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "CafeBeneluxReview.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToReviews3() throws IOException {
+		Stage firstStage = (Stage) reviewButton3.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "OddDuckReview.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToReviews4() throws IOException {
+		Stage firstStage = (Stage) reviewButton4.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "CalderoneClubReview.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToReviews5() throws IOException {
+		Stage firstStage = (Stage) reviewButton5.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "OaklandGyrosReview.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToReviews6() throws IOException {
+		Stage firstStage = (Stage) reviewButton6.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "JaliscosOnNorthReview.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
 
 	@FXML
 	public void writeReview() throws IOException {
@@ -189,11 +259,20 @@ public class Controller {
 		for (int i = 0; i < review.length(); i++) {
 			temp++;
 		}
-		if (temp <= 0 || temp > 200) {
+		if (temp <= 0 || temp > 250) {
 			reviewStatus.setText("Invalid Review Length, Try Again");
 			return;
 		}
-		reviewStatus.setText("Review Submitted!");
+		Stage firstStage = (Stage) submit.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "Submitted.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
 	}
 
 }

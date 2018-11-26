@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="OaklandGyrosReview" prefHeight="600.0" prefWidth="815.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
+  <!-- TODO Add Nodes -->
+  <children>
+    <AnchorPane id="BluesEggReview" layoutX="0.0" layoutY="0.0" prefHeight="600.0" prefWidth="815.0">
+      <!-- TODO Add Nodes -->
+      <children>
+        <AnchorPane id="AnchorPane" layoutX="0.0" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="815.0">
+          <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="-1.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="-1.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+            <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="263.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+              </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="388.0" layoutX="14.0" layoutY="123.0" stroke="BLACK" strokeType="INSIDE" width="262.9999610351588" />
+            <ImageView fitHeight="150.13643452511994" fitWidth="225.00011525878654" layoutX="33.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../oakland-gyros.jpg" />
+              </image>
+            </ImageView>
+            <Text id="restaurantTitle" layoutX="81.0" layoutY="337.0" scaleX="2.2389761157247476" scaleY="1.9017291705425436" strokeType="OUTSIDE" strokeWidth="0.0" text="Oakland Gyros">
+              <font>
+                <Font name="Leelawadee UI Bold" size="12.0" fx:id="x2" />
+              </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="366.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="Greek, Dinner">
+              <font>
+                <Font name="Leelawadee UI" size="8.0" fx:id="x1" />
+              </font>
+            </Text>
+            <Text font="$x1" layoutX="70.0" layoutY="383.0" scaleX="1.5186005473339153" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="2867 N Oakland Ave, Milwaukee, WI 53211" />
+            <Text font="$x1" layoutX="63.0" layoutY="397.0" scaleX="1.3870148653805716" scaleY="1.4641307683615534" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 10:30AM-3AM Mon-Sat, 11AM-3AM Sun" />
+            <Text font="$x1" layoutX="46.0" layoutY="413.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 963-1393" />
+            <ImageView fitHeight="32.64544677734375" fitWidth="32.64544677734375" layoutX="32.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../full-star.png" />
+              </image>
+            </ImageView>
+            <Text font="$x2" layoutX="95.0" layoutY="475.0" scaleX="1.948935401297877" scaleY="1.525811493252494" strokeType="OUTSIDE" strokeWidth="0.0" text="4.7/5 Stars" />
+            <Text layoutX="58.0" layoutY="446.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="Average Cutomer Rating:">
+              <font>
+                <Font name="Leelawadee UI Bold" size="8.0" fx:id="x3" />
+              </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="96.54239736327872" layoutX="317.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="498.0" />
+            <Text font="$x1" layoutX="483.0" layoutY="198.0" scaleX="1.560563012478804" scaleY="1.452041935746578" strokeType="OUTSIDE" strokeWidth="0.0" text="Friendly guys....not really helpful, but friendly. Been coming here since I was a kid. The food is pretty good but the prices are pretty high. No complaints though." textAlignment="LEFT" wrappingWidth="250.0" />
+            <ImageView fitHeight="76.4302978515625" fitWidth="76.4302978515625" layoutX="330.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../profpic.jpg" />
+              </image>
+            </ImageView>
+            <Text font="$x2" layoutX="422.0" layoutY="178.0" scaleX="1.2091813801945277" scaleY="1.0172155180170694" strokeType="OUTSIDE" strokeWidth="0.0" text="Shawn Fleming" />
+            <ImageView fitHeight="22.64532470703125" fitWidth="22.64532470703125" layoutX="530.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../full-star.png" />
+              </image>
+            </ImageView>
+            <Text font="$x3" layoutX="560.0" layoutY="175.0" scaleX="1.5913616593291322" scaleY="1.5752268695012512" strokeType="OUTSIDE" strokeWidth="0.0" text="4/5" />
+            <Button id="reviewButton" fx:id="writeReviewButton" layoutX="331.0" layoutY="470.0" mnemonicParsing="false" onAction="#writeReview" prefHeight="39.0" prefWidth="149.48004150390625" text="Write A Review">
+              <font>
+                <Font size="18.0" fx:id="x4" />
+              </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="96.54239736327872" layoutX="317.0" layoutY="371.0" stroke="BLACK" strokeType="INSIDE" width="498.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="96.54239736327872" layoutX="317.0" layoutY="263.0" stroke="BLACK" strokeType="INSIDE" width="498.0" />
+            <ImageView fitHeight="76.4302978515625" fitWidth="76.4302978515625" layoutX="330.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../profpic.jpg" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="76.4302978515625" fitWidth="76.4302978515625" layoutX="330.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../profpic.jpg" />
+              </image>
+            </ImageView>
+            <Text font="$x2" layoutX="426.0" layoutY="393.0" scaleX="1.2091813801945277" scaleY="1.0172155180170694" strokeType="OUTSIDE" strokeWidth="0.0" text="Brody Tuomi" />
+            <Text font="$x2" layoutX="423.0" layoutY="286.0" scaleX="1.2091813801945277" scaleY="1.0172155180170694" strokeType="OUTSIDE" strokeWidth="0.0" text="Jacob Glisch" />
+            <Text font="$x1" layoutX="485.0" layoutY="413.0" scaleX="1.5462190206885247" scaleY="1.452041935746578" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Gyro place on the East side. Great Value for Great food. I recommend getting the Gyro Combo. It is probably my favorite place to go to off the UWM campus." textAlignment="LEFT" wrappingWidth="250.0" />
+            <Text font="$x1" layoutX="484.0" layoutY="304.0" scaleX="1.554895079136347" scaleY="1.452041935746578" strokeType="OUTSIDE" strokeWidth="0.0" text="One of the best places to get gyros in the United States. Family owned and GREAT people. They always have security, so even when the area gets sketchy, you’ll feel safe. I inhaled my last gyro and can’t wait to get back into Milwaukee for another!" textAlignment="LEFT" wrappingWidth="250.0" />
+            <ImageView fitHeight="22.64544677734375" fitWidth="22.64544677734375" layoutX="529.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../full-star.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="22.64544677734375" fitWidth="22.64544677734375" layoutX="529.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../full-star.png" />
+              </image>
+            </ImageView>
+            <Text font="$x3" layoutX="560.0" layoutY="390.0" scaleX="1.5913616593291322" scaleY="1.5752268695012512" strokeType="OUTSIDE" strokeWidth="0.0" text="5/5" />
+            <Text font="$x3" layoutX="560.0" layoutY="281.0" scaleX="1.5913616593291322" scaleY="1.5752268695012512" strokeType="OUTSIDE" strokeWidth="0.0" text="5/5" />
+            <Text fill="WHITE" layoutX="566.0" layoutY="143.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Reviews">
+              <font>
+                <Font name="HP Simplified Bold" size="12.0" />
+              </font>
+            </Text>
+            <Button fx:id="backButton" font="$x4" layoutX="651.0" layoutY="472.0" mnemonicParsing="false" onAction="#goHome" prefHeight="39.0" prefWidth="150.0" text="Back To Home" />
+          </children>
+        </AnchorPane>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

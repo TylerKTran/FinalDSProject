@@ -13,7 +13,7 @@
   <children>
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="600.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="845.0" />
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="0.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="845.0" />
-    <TextArea fx:id="writtenReview" layoutX="137.0" layoutY="288.0" prefHeight="110.0" prefWidth="600.0" promptText="Write a review (200 characters max)" wrapText="true" />
+    <TextArea fx:id="writtenReview" layoutX="137.0" layoutY="288.0" prefHeight="110.0" prefWidth="600.0" promptText="Write a review (250 characters max)" wrapText="true" />
     <TextField fx:id="accountName" layoutX="137.0" layoutY="174.0" prefWidth="200.0" promptText="Name" text="ACCOUNT" />
     <TextField fx:id="restaurantName" layoutX="137.0" layoutY="248.0" prefWidth="200.0" promptText="Restaurant Name" text="" />
     <TextField fx:id="rating" layoutX="137.0" layoutY="212.0" prefWidth="200.0" promptText="Rating (1-5)" text="" />
@@ -34,8 +34,9 @@
     </Text>
     <Button id="backButton" fx:id="submit" layoutX="587.0" layoutY="416.0" mnemonicParsing="false" onAction="#submitReview" prefHeight="39.0" prefWidth="150.0" text="Submit">
       <font>
-        <Font size="18.0" />
+        <Font size="18.0" fx:id="x1" />
       </font>
     </Button>
+    <Button fx:id="backButton" font="$x1" layoutX="587.0" layoutY="468.0" mnemonicParsing="false" onAction="#goHome" prefHeight="39.0" prefWidth="150.0" text="Back To Home" />
   </children>
 </AnchorPane>

@@ -64,7 +64,7 @@
           </image>
         </ImageView>
         <Text font="$x3" layoutX="560.0" layoutY="175.0" scaleX="1.5913616593291322" scaleY="1.5752268695012512" strokeType="OUTSIDE" strokeWidth="0.0" text="5/5" />
-        <Button id="reviewButton" fx:id="writeReviewButton" layoutX="330.0" layoutY="470.0" mnemonicParsing="false" onAction="#writeReview" prefHeight="39.0" prefWidth="149.48004150390625" text="Write A Review">
+        <Button id="reviewButton" fx:id="writeReviewButton" layoutX="331.0" layoutY="470.0" mnemonicParsing="false" onAction="#writeReview" prefHeight="39.0" prefWidth="149.48004150390625" text="Write A Review">
           <font>
             <Font size="18.0" fx:id="x4" />
           </font>

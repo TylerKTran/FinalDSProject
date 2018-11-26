@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Submitted" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="399.9999000000025" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="399.9999000000025" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="301.0" layoutX="0.0" layoutY="49.0" stroke="BLACK" strokeType="INSIDE" width="399.9998779296875" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="153.0" layoutY="142.0" scaleX="3.043763914580297" scaleY="2.703694239169136" strokeType="OUTSIDE" strokeWidth="0.0" text="Review Submitted">
+      <font>
+        <Font name="HP Simplified Bold" size="12.0" />
+      </font>
+    </Text>
+    <Text fill="WHITE" layoutX="142.0" layoutY="180.0" scaleX="2.1245658617652627" scaleY="2.703694239169136" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for your review!">
+      <font>
+        <Font name="HP Simplified Bold" size="10.0" />
+      </font>
+    </Text>
+    <Button fx:id="backButton" layoutX="125.0" layoutY="253.0" mnemonicParsing="false" onAction="#goHome" prefHeight="39.0" prefWidth="150.0" text="Back To Home">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>
