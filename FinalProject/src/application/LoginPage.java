@@ -1,5 +1,6 @@
 package application;
 
+import java.util.ArrayList;
 import java.io.IOException;
 import javafx.scene.layout.VBox;
 import javafx.application.Application;
@@ -40,6 +41,7 @@ import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.Node;
 
 public class LoginPage extends Application {
+	
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {

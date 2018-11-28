@@ -48,7 +48,7 @@
               </image>
             </ImageView>
             <Text font="$x2" layoutX="95.0" layoutY="475.0" scaleX="1.948935401297877" scaleY="1.525811493252494" strokeType="OUTSIDE" strokeWidth="0.0" text="4.7/5 Stars" />
-            <Text layoutX="58.0" layoutY="446.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="Average Cutomer Rating:">
+            <Text layoutX="58.0" layoutY="449.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="Average Cutomer Rating:">
               <font>
                 <Font name="Leelawadee UI Bold" size="8.0" fx:id="x3" />
               </font>
@@ -106,6 +106,7 @@
               </font>
             </Text>
             <Button fx:id="backButton" font="$x4" layoutX="651.0" layoutY="472.0" mnemonicParsing="false" onAction="#goHome" prefHeight="39.0" prefWidth="150.0" text="Back To Home" />
+            <Text font="$x1" layoutX="36.0" layoutY="358.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
           </children>
         </AnchorPane>
       </children>

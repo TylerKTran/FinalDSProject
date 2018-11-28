@@ -39,12 +39,12 @@
         <Font name="Leelawadee UI Bold" size="12.0" fx:id="x1" />
       </font>
     </Text>
-    <Button layoutX="318.0" layoutY="248.0" mnemonicParsing="false" text="Order" />
-    <Button layoutX="736.0" layoutY="488.0" mnemonicParsing="false" text="Order" />
-    <Button layoutX="736.0" layoutY="365.0" mnemonicParsing="false" text="Order" />
-    <Button layoutX="736.0" layoutY="248.0" mnemonicParsing="false" text="Order" />
-    <Button layoutX="319.0" layoutY="488.0" mnemonicParsing="false" text="Order" />
-    <Button layoutX="318.0" layoutY="365.0" mnemonicParsing="false" text="Order" />
+    <Button layoutX="318.0" layoutY="248.0" mnemonicParsing="false" text="Menu" />
+    <Button layoutX="736.0" layoutY="488.0" mnemonicParsing="false" text="Menu" />
+    <Button layoutX="736.0" layoutY="365.0" mnemonicParsing="false" text="Menu" />
+    <Button layoutX="736.0" layoutY="248.0" mnemonicParsing="false" text="Menu" />
+    <Button layoutX="319.0" layoutY="488.0" mnemonicParsing="false" text="Menu" />
+    <Button layoutX="318.0" layoutY="365.0" mnemonicParsing="false" text="Menu" />
     <Text id="restaurantTitle" font="$x1" layoutX="581.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Jalisco's On North" />
     <Text id="restaurantTitle" font="$x1" layoutX="578.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Calderone Club" />
     <Text id="restaurantTitle" font="$x1" layoutX="576.0" layoutY="199.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Cafe Benelux" />
@@ -62,22 +62,22 @@
     <Text font="$x2" layoutX="161.0" layoutY="331.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="American, Dinner" />
     <Text font="$x2" layoutX="171.0" layoutY="224.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="317 N 76th St, Milwaukee, WI 53213" />
     <Text font="$x2" layoutX="165.0" layoutY="232.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 7AM-2PM Everyday" />
-    <Text font="$x2" layoutX="159.0" layoutY="242.0" scaleX="1.316353800987957" scaleY="0.96194579819116" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 299-3180" />
+    <Text font="$x2" layoutX="153.0" layoutY="242.0" scaleX="1.316353800987957" scaleY="0.96194579819116" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
     <Text font="$x2" layoutX="587.0" layoutY="224.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="346 N Broadway, Milwaukee, WI 53202" />
     <Text font="$x2" layoutX="577.0" layoutY="234.0" scaleX="1.107773426391745" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 7AM-11PM Mon-Fri, 8AM-12AM Sat, 8AM-11PM Sun" />
-    <Text font="$x2" layoutX="574.0" layoutY="244.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 501-2500" />
+    <Text font="$x2" layoutX="567.0" layoutY="244.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
     <Text font="$x2" layoutX="591.0" layoutY="341.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="842 N Old World 3rd St, Milwaukee, WI 53203" />
     <Text font="$x2" layoutX="548.0" layoutY="351.0" scaleX="0.8666057512195728" scaleY="0.9690894598449249" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 11AM-3PM &amp; 5PM-11PM Mon-Thu, 11AM-12AM Fri, 12PM-12AM Sat" />
-    <Text font="$x2" layoutX="574.0" layoutY="363.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 273-3236" />
+    <Text font="$x2" layoutX="567.0" layoutY="361.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
     <Text font="$x2" layoutX="177.0" layoutY="341.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="2352 S Kinnickinnic Ave, Milwaukee, WI 53207" />
     <Text font="$x2" layoutX="166.0" layoutY="351.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 3PM-12AM Everyday" />
-    <Text font="$x2" layoutX="160.0" layoutY="361.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 763-5881" />
+    <Text font="$x2" layoutX="152.0" layoutY="361.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
     <Text font="$x2" layoutX="175.0" layoutY="460.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="2867 N Oakland Ave, Milwaukee, WI 53211" />
     <Text font="$x2" layoutX="177.0" layoutY="469.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 10:30AM-3AM Mon-Sat, 11AM-3AM Sun" />
-    <Text font="$x2" layoutX="159.0" layoutY="480.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 963-1393" />
+    <Text font="$x2" layoutX="153.0" layoutY="480.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
     <Text font="$x2" layoutX="588.0" layoutY="461.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="2207 E North Ave, Milwaukee, WI 53202" />
     <Text font="$x2" layoutX="592.0" layoutY="471.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Open 11AM-3AM Mon-Thu, 11AM-4AM Fri-Sat" />
-    <Text font="$x2" layoutX="574.0" layoutY="482.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="(414) 291-0645" />
+    <Text font="$x2" layoutX="567.0" layoutY="482.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
     <ImageView cache="false" fitHeight="72.3927230834961" fitWidth="108.49046388730574" layoutX="453.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@../../../jaliscos.jpg" />

@@ -1,5 +1,6 @@
 package application;
 
+import java.util.ArrayList;
 import java.io.IOException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -150,7 +151,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToReviews2() throws IOException {
 		Stage firstStage = (Stage) reviewButton2.getScene().getWindow();
@@ -164,7 +165,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToReviews3() throws IOException {
 		Stage firstStage = (Stage) reviewButton3.getScene().getWindow();
@@ -178,7 +179,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToReviews4() throws IOException {
 		Stage firstStage = (Stage) reviewButton4.getScene().getWindow();
@@ -192,7 +193,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToReviews5() throws IOException {
 		Stage firstStage = (Stage) reviewButton5.getScene().getWindow();
@@ -206,7 +207,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToReviews6() throws IOException {
 		Stage firstStage = (Stage) reviewButton6.getScene().getWindow();
