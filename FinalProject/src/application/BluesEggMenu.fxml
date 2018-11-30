@@ -68,6 +68,6 @@
     <Text fill="WHITE" font="$x1" layoutX="75.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rooted Veggie Hash" />
     <Text fill="WHITE" font="$x1" layoutX="596.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salmon Flatbread" />
     <Text fill="WHITE" font="$x1" layoutX="352.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hoppel Poppel" />
-    <Button fx:id="returnBlueEggToHome" font="$x1" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" prefHeight="33.0465087890625" prefWidth="98.0" text="Back" />
+    <Button fx:id="backButton" font="$x1" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goHome" prefHeight="33.0465087890625" prefWidth="98.0" text="Back" />
   </children>
 </AnchorPane>

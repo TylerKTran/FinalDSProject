@@ -165,6 +165,76 @@ public class Controller {
 	}
 	
 	@FXML
+	public void goToMenu2() throws IOException {
+		Stage firstStage = (Stage) menuButton2.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "CafeBeneluxMenu.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToMenu3() throws IOException {
+		Stage firstStage = (Stage) menuButton3.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "OddDuckMenu.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToMenu4() throws IOException {
+		Stage firstStage = (Stage) menuButton4.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "CalderoneClubMenu.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToMenu5() throws IOException {
+		Stage firstStage = (Stage) menuButton5.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "OaklandGyrosMenu.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
+	public void goToMenu6() throws IOException {
+		Stage firstStage = (Stage) menuButton6.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "JaliscosOnNorthMenu.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
+	@FXML
 	public void goToReviews1() throws IOException {
 		Stage firstStage = (Stage) reviewButton1.getScene().getWindow();
 		firstStage.close();

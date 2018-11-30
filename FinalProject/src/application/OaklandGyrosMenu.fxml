@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="808.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="808.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
   <children>
     <ImageView fitHeight="83.0" fitWidth="110.66666666666666" layoutX="182.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="-5.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
@@ -70,6 +70,6 @@
     <Text fill="WHITE" font="$x1" layoutX="71.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rooted Veggie Hash" />
     <Text fill="WHITE" font="$x1" layoutX="592.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salmon Flatbread" />
     <Text fill="WHITE" font="$x1" layoutX="348.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hoppel Poppel" />
-    <Button id="returnBlueEggToHome" font="$x1" layoutX="25.0" layoutY="100.0" minHeight="33.0465087890625" mnemonicParsing="false" prefHeight="33.0465087890625" prefWidth="98.0" text="Back" />
+    <Button fx:id="backButton" font="$x1" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goHome" prefHeight="33.0465087890625" prefWidth="98.0" text="Back" />
   </children>
 </AnchorPane>
