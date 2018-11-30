@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="808.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="83.0" fitWidth="110.66666666666666" layoutX="182.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="-5.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="-4.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="261.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="365.0" layoutY="139.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Oakland Gyros">
+      <font>
+        <Font size="12.0" />
+      </font>
+    </Text>
+    <Text fill="WHITE" layoutX="425.0" layoutY="162.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+      <font>
+        <Font size="6.0" />
+      </font>
+    </Text>
+    <ImageView fitHeight="83.0" fitWidth="110.66666666666666" layoutX="10.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fitHeight="104.78425155533274" fitWidth="157.89408111572266" layoutX="74.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg-blueberry.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="104.78425155533274" fitWidth="157.89408111572266" layoutX="583.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg-SalmonFlatbread.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="104.78425155533274" fitWidth="157.89408111572266" layoutX="330.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg-EggBenedict.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="104.78425155533274" fitWidth="157.89408111572266" layoutX="583.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg-FrenchToast.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="104.78425155533274" fitWidth="157.89408111572266" layoutX="75.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg-RootedVeggieHash.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="104.78434835204826" fitWidth="139.71245938312978" layoutX="335.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../blues-egg-food.jpg" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="76.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blueberry Pancakes">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Text fill="WHITE" font="$x1" layoutX="348.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eggs Benedict" />
+    <Text fill="WHITE" font="$x1" layoutX="611.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="French Toast" />
+    <Text fill="WHITE" font="$x1" layoutX="71.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rooted Veggie Hash" />
+    <Text fill="WHITE" font="$x1" layoutX="592.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salmon Flatbread" />
+    <Text fill="WHITE" font="$x1" layoutX="348.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hoppel Poppel" />
+    <Button id="returnBlueEggToHome" font="$x1" layoutX="25.0" layoutY="100.0" minHeight="33.0465087890625" mnemonicParsing="false" prefHeight="33.0465087890625" prefWidth="98.0" text="Back" />
+  </children>
+</AnchorPane>

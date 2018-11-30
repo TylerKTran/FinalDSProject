@@ -14,7 +14,7 @@
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12abff" height="400.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
     <ImageView fitHeight="103.811279296875" fitWidth="310.75974113769325" layoutX="45.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="file:/C:/Java%20Programs/Repository(Folder)/FinalDSProject/RestaurantAdvisorLogo.PNG" />
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
       </image>
     </ImageView>
     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="202.0" layoutX="14.0" layoutY="129.0" smooth="true" stroke="BLACK" strokeLineCap="SQUARE" strokeType="INSIDE" width="372.0" />

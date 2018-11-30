@@ -88,7 +88,19 @@ public class Controller {
 	private Button reviewButton5;
 	@FXML
 	private Button reviewButton6;
-
+	@FXML
+	private Button menuButton1;
+	@FXML
+	private Button menuButton2;
+	@FXML
+	private Button menuButton3;
+	@FXML
+	private Button menuButton4;
+	@FXML
+	private Button menuButton5;
+	@FXML
+	private Button menuButton6;
+	
 	public Controller() {
 
 	}
@@ -138,6 +150,20 @@ public class Controller {
 		stage.show();
 	}
 
+	@FXML
+	public void goToMenu1() throws IOException {
+		Stage firstStage = (Stage) menuButton1.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "BluesEggMenu.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+	
 	@FXML
 	public void goToReviews1() throws IOException {
 		Stage firstStage = (Stage) reviewButton1.getScene().getWindow();
