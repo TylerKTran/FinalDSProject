@@ -47,6 +47,7 @@ import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.TextArea;
 import javafx.scene.Node;
 
+
 public class Controller {
 	@FXML
 	private TextField username;

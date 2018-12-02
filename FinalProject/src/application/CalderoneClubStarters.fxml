@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="818.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.CalderoneClubMenuController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="1.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="266.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="369.0" layoutY="144.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Minestre &amp; Insalate">
+      <font>
+        <Font size="12.0" />
+      </font>
+    </Text>
+    <Text fill="WHITE" layoutX="430.0" layoutY="162.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+      <font>
+        <Font size="6.0" />
+      </font>
+    </Text>
+    <Button fx:id="backButton" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goHome" prefHeight="33.0465087890625" prefWidth="98.0" text="Back">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="calderoneClubSoupsSalads" font="$x1" layoutX="68.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToStarters" prefHeight="34.0" prefWidth="197.89404296875" text="Minestre &amp; Insalate" />
+    <Button fx:id="calderoneClubAntipasta" font="$x1" layoutX="310.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToAntipasta" prefHeight="34.0" prefWidth="197.89404296875" text="Antipasta" />
+    <Button fx:id="calderoneClubPasta" font="$x1" layoutX="555.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToPasta" prefHeight="34.0" prefWidth="197.89404296875" text="Pasta" />
+    <Button fx:id="calderoneClubDolci" font="$x1" layoutX="555.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDolci" prefHeight="34.0" prefWidth="197.89404296875" text="Dolci" />
+    <Button fx:id="calderoneClubMeals" font="$x1" layoutX="294.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToMeals" prefHeight="34.0" prefWidth="230.0" text="Pizza &amp; Secondi Piatti" />
+    <Button fx:id="calderoneClubPanini" font="$x1" layoutX="68.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToPanini" prefHeight="34.0" prefWidth="197.89404296875" text="Panini" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="398.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../CalderoneClubMenu/CalderoneClubSoup.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="211.51251958320972" fitWidth="79.08614349365234" layoutX="282.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../CalderoneClubMenu/CladeroneClubSalads.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="553.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../CalderoneClubMenu/CalderoneClubSignature.PNG" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

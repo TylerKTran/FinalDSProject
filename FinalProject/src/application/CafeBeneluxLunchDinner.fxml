@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="818.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.CafeBeneluxMenuController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="1.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="266.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="379.0" layoutY="144.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Cafe Benelux">
+      <font>
+        <Font size="12.0" />
+      </font>
+    </Text>
+    <Text fill="WHITE" layoutX="430.0" layoutY="162.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+      <font>
+        <Font size="6.0" />
+      </font>
+    </Text>
+    <Button fx:id="backButton" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goHome" prefHeight="33.0465087890625" prefWidth="98.0" text="Back">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="beneluxLunchDinner" font="$x1" layoutX="20.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToLunchDinner" prefHeight="34.0" prefWidth="197.89404296875" text="Lunch &amp; Dinner" />
+    <Button fx:id="beneluxBrunch" font="$x1" layoutX="248.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBrunch" prefHeight="33.0465087890625" prefWidth="98.0" text="Brunch" />
+    <Button fx:id="beneluxBreakfast" font="$x1" layoutX="386.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBreakfast" prefHeight="34.0" prefWidth="139.71240234375" text="Breakfast" />
+    <Button fx:id="beneluxKids" font="$x1" layoutX="566.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToKids" prefHeight="33.0465087890625" prefWidth="98.0" text="Kids" />
+    <Button fx:id="beneluxDrinks" font="$x1" layoutX="704.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDrinks" prefHeight="33.0465087890625" prefWidth="98.0" text="Drinks" />
+    <ImageView fitHeight="125.5881576538086" fitWidth="119.97135624335802" layoutX="20.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxAppetizers.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="190.15386642616195" layoutX="160.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxShareable.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="123.46700262504278" layoutX="370.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxMoulesFrites.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="250.70412709403283" layoutX="513.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxSoup.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="119.97135624335802" layoutX="20.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxBurgers.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="132.7503177527997" layoutX="155.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxSandwiches.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="132.9713592529297" layoutX="280.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxEntrees.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="185.4143234568162" layoutX="405.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxDessert.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="125.5881576538086" fitWidth="194.28207415734897" layoutX="604.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BeneluxMenu/BeneluxLunchDinner/BeneluxSides.PNG" />
+      </image>
+    </ImageView>
+    <Label layoutX="326.0" layoutY="149.0" text="Lunch &amp; Dinner" textFill="WHITE">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="818.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.OddDuckMenuController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="1.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="266.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="397.0" layoutY="156.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Beer">
+      <font>
+        <Font size="12.0" />
+      </font>
+    </Text>
+    <Text fill="WHITE" layoutX="430.0" layoutY="162.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+      <font>
+        <Font size="6.0" />
+      </font>
+    </Text>
+    <Button fx:id="backButton" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goHome" prefHeight="33.0465087890625" prefWidth="98.0" text="Back">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button id="beneluxLunchDinner" fx:id="oddDuckMenu" font="$x1" layoutX="29.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToMenu" prefHeight="34.0" prefWidth="107.0" text="Menu" />
+    <Button id="beneluxBrunch" fx:id="oddDuckGlass" font="$x1" layoutX="160.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToGlass" prefHeight="34.0" prefWidth="185.0" text="Drinks by the Glass" />
+    <Button id="beneluxBreakfast" fx:id="oddDuckBottle" font="$x1" layoutX="368.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBottle" prefHeight="34.0" prefWidth="170.0" text="Drinks by Bottles" />
+    <Button id="beneluxKids" fx:id="oddDuckCocktails" font="$x1" layoutX="555.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToCocktails" prefHeight="34.0" prefWidth="107.0" text="Cocktails" />
+    <Button id="beneluxDrinks" fx:id="oddDuckBeer" font="$x1" layoutX="685.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBeer" prefHeight="33.0465087890625" prefWidth="98.0" text="Beer" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="145.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../OddDuckMenu/OddDuckDrinks/OddDuckDrinksBeer/OddDuckLarge.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="145.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../OddDuckMenu/OddDuckDrinks/OddDuckDrinksBeer/OddDuckCider.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="353.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../OddDuckMenu/OddDuckDrinks/OddDuckDrinksBeer/OddDuckDraft.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="284.0457836417685" fitWidth="129.00003814697266" layoutX="556.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../OddDuckMenu/OddDuckDrinks/OddDuckDrinksBeer/OddDuckCanned.PNG" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="818.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.BluesEggMenuController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="599.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="451.0" layoutX="1.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="818.0" />
+    <ImageView fitHeight="96.54229858398438" fitWidth="289.0" layoutX="266.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../RestaurantAdvisorLogo.PNG" />
+      </image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="383.0" layoutY="144.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue's Egg">
+      <font>
+        <Font size="12.0" />
+      </font>
+    </Text>
+    <Text fill="WHITE" layoutX="430.0" layoutY="162.0" scaleX="2.68452192372884" scaleY="2.0704622119561105" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+      <font>
+        <Font size="6.0" />
+      </font>
+    </Text>
+    <Button fx:id="backButton" layoutX="29.0" layoutY="101.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goHome" prefHeight="33.0465087890625" prefWidth="98.0" text="Back">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="bluesEggBreakfast" font="$x1" layoutX="68.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBreakfast" prefHeight="34.0" prefWidth="197.89404296875" text="Basics &amp; &quot;Benedicts&quot;" />
+    <Button fx:id="bluesEggBrunch" font="$x1" layoutX="310.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBrunch" prefHeight="34.0" prefWidth="197.89404296875" text="Blue's Brunch" />
+    <Button fx:id="bluesEggSides" font="$x1" layoutX="555.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToSides" prefHeight="34.0" prefWidth="197.89404296875" text="Browns &amp; Sides" />
+    <Button fx:id="bluesEggSpecial" font="$x1" layoutX="555.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToSpecials" prefHeight="34.0" prefWidth="197.89404296875" text="Blue's Daily Specials" />
+    <Button fx:id="bluesEggDrinks" font="$x1" layoutX="312.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDrinks" prefHeight="34.0" prefWidth="197.89404296875" text="Beverages" />
+    <Button fx:id="bluesEggNoon" font="$x1" layoutX="68.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToLunch" prefHeight="34.0" prefWidth="197.89404296875" text="After 11 AM, M-F" />
+    <ImageView fitHeight="89.05284881591797" fitWidth="151.42741221846998" layoutX="116.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BluesEggMenu/BluesEggSides/BluesEggsSweets.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="74.13911437988281" fitWidth="156.4403366465029" layoutX="116.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BluesEggMenu/BluesEggSides/BluesEggHashbrowns.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="70.39474872462624" fitWidth="197.99993896484375" layoutX="312.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BluesEggMenu/BluesEggSides/BluesEggPotato.PNG" />
+      </image>
+    </ImageView>
+    <Label layoutX="323.0" layoutY="155.0" text="Browns &amp; Sides" textFill="WHITE">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Label>
+    <ImageView fitHeight="45.538265228271484" fitWidth="203.53843424496316" layoutX="312.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BluesEggMenu/BluesEggSides/BluesEggFries.PNG" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="183.0" fitWidth="160.21493255615235" layoutX="556.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../BluesEggMenu/BluesEggSides/BluesEggSide.PNG" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
