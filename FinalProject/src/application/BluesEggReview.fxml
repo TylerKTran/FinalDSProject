@@ -23,7 +23,7 @@
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="388.0" layoutX="14.0" layoutY="123.0" stroke="BLACK" strokeType="INSIDE" width="262.9999610351588" />
         <ImageView fitHeight="150.13643452511994" fitWidth="225.00011525878654" layoutX="33.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
           <image>
-            <Image url="file:/C:/Java%20Programs/Repository(Folder)/FinalDSProject/blues-egg.jpg" />
+            <Image url="@../../../blues-egg.jpg" />
           </image>
         </ImageView>
         <Text fx:id="restaurantTitle" layoutX="67.0" layoutY="337.0" scaleX="2.2389761157247476" scaleY="1.9017291705425436" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue's Egg">
