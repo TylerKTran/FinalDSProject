@@ -103,6 +103,7 @@ public class Controller {
 	@FXML
 
 	private ArrayList<String> restaurants;
+	private ArrayList<Account> accounts;
 
 	public Controller() {
 		restaurants = new ArrayList<String>();
@@ -112,13 +113,25 @@ public class Controller {
 		restaurants.add("Calderone Club");
 		restaurants.add("Jalisco's on North");
 		restaurants.add("Oakland Gyros");
+		accounts = new ArrayList<Account>();
+		accounts.add(new Account());
+		accounts.add(new Account("ttran", "12345"));
 	}
 
 	@FXML
 	public void loginAttempt(ActionEvent event) throws IOException {
-		int check1 = getUsername().compareTo(account.getUsername());
-		int check2 = getPassword().compareTo(account.getPassword());
-		if (check1 == 0 && check2 == 0) {
+		/*
+		 * int check1 = getUsername().compareTo(account.getUsername()); int check2 =
+		 * getPassword().compareTo(account.getPassword()); if (check1 == 0 && check2 ==
+		 * 0) {
+		 */
+		boolean check = false;
+		for (int i = 0; i < accounts.size(); i++) {
+			if (getUsername().equals(accounts.get(i).getUsername()) && getPassword().equals(accounts.get(i).getPassword())) {
+				check = true;
+			}
+		}
+		if (check) {
 			Stage firstStage = (Stage) login.getScene().getWindow();
 			firstStage.close();
 			String fxmlResource = "HomePage.fxml";
@@ -365,7 +378,7 @@ public class Controller {
 			if (restaurantName.getText().equals(restaurants.get(i))) {
 				match = true;
 			}
-			//System.out.println(restaurants.get(i));
+			// System.out.println(restaurants.get(i));
 			if (!match) {
 				reviewStatus.setText("Invalid Restaurant Name, Try Again");
 				return;

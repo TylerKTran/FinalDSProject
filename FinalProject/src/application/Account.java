@@ -3,10 +3,15 @@ package application;
 public class Account {
 	protected String username;
 	protected String password;
-	
+
 	public Account() {
 		username = "username";
 		password = "password";
+	}
+
+	public Account(String username, String password) {
+		this.username = username;
+		this.password = password;
 	}
 
 	public String getUsername() {
