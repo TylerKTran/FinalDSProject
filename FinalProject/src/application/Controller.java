@@ -127,7 +127,8 @@ public class Controller {
 		 */
 		boolean check = false;
 		for (int i = 0; i < accounts.size(); i++) {
-			if (getUsername().equals(accounts.get(i).getUsername()) && getPassword().equals(accounts.get(i).getPassword())) {
+			if (getUsername().equals(accounts.get(i).getUsername())
+					&& getPassword().equals(accounts.get(i).getPassword())) {
 				check = true;
 			}
 		}
@@ -146,6 +147,24 @@ public class Controller {
 			loginStatus.setText("Login Failed, Try Again");
 		}
 
+	}
+
+	@FXML
+	public void registerAccount(ActionEvent event) throws IOException {
+		Account toAdd = new Account(getUsername(), getPassword());
+		boolean only = true;
+		for (int i = 0; i < accounts.size(); i++) {
+			if (toAdd.username.equals(accounts.get(i).getUsername())
+					&& toAdd.password.equals(accounts.get(i).getPassword())) {
+				only = false;
+			}
+		}
+		if (only) {
+			accounts.add(toAdd);
+			loginStatus.setText("Account registered! Try logging in");
+		} else {
+			loginStatus.setText("Account already exists");
+		}
 	}
 
 	@FXML
