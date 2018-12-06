@@ -39,5 +39,13 @@
     <Button fx:id="calderoneClubDolci" font="$x1" layoutX="555.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDolci" prefHeight="34.0" prefWidth="197.89404296875" text="Dolci" />
     <Button fx:id="calderoneClubMeals" font="$x1" layoutX="294.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToMeals" prefHeight="34.0" prefWidth="230.0" text="Pizza &amp; Secondi Piatti" />
     <Button fx:id="calderoneClubPanini" font="$x1" layoutX="68.0" layoutY="241.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToPanini" prefHeight="34.0" prefWidth="197.89404296875" text="Panini" />
+    <Text fill="WHITE" layoutX="90.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Join us for an unforgettable dining experience at our casual, yet refined, ">
+      <font>
+        <Font size="20.0" fx:id="x2" />
+      </font>
+    </Text>
+    <Text fill="WHITE" font="$x2" layoutX="85.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="downtown location! Our hand-crafted entrees, made from scratch pastas, " />
+    <Text fill="WHITE" font="$x2" layoutX="96.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and award-winning Neapolitan thin-crust pizzas are sure to please and " />
+    <Text fill="WHITE" font="$x2" layoutX="140.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="our extensive wine and beverage menu can satisfy all palates!" />
   </children>
 </AnchorPane>
