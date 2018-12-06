@@ -161,9 +161,9 @@ public class Controller {
 		}
 		if (only) {
 			accounts.add(toAdd);
-			loginStatus.setText("Account registered! Try logging in");
+			loginStatus.setText("Account Registered! Try Logging In");
 		} else {
-			loginStatus.setText("Account already exists");
+			loginStatus.setText("Account Already Exists");
 		}
 	}
 
