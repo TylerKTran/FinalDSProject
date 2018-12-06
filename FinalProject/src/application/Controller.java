@@ -47,7 +47,6 @@ import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.TextArea;
 import javafx.scene.Node;
 
-
 public class Controller {
 	@FXML
 	private TextField username;
@@ -101,9 +100,18 @@ public class Controller {
 	private Button menuButton5;
 	@FXML
 	private Button menuButton6;
-	
-	public Controller() {
+	@FXML
 
+	private ArrayList<String> restaurants;
+
+	public Controller() {
+		restaurants = new ArrayList<String>();
+		restaurants.add("Blue's Egg");
+		restaurants.add("Cafe Benelux");
+		restaurants.add("Odd Duck");
+		restaurants.add("Calderone Club");
+		restaurants.add("Jalisco's on North");
+		restaurants.add("Oakland Gyros");
 	}
 
 	@FXML
@@ -164,7 +172,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToMenu2() throws IOException {
 		Stage firstStage = (Stage) menuButton2.getScene().getWindow();
@@ -178,7 +186,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToMenu3() throws IOException {
 		Stage firstStage = (Stage) menuButton3.getScene().getWindow();
@@ -192,7 +200,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToMenu4() throws IOException {
 		Stage firstStage = (Stage) menuButton4.getScene().getWindow();
@@ -206,7 +214,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToMenu5() throws IOException {
 		Stage firstStage = (Stage) menuButton5.getScene().getWindow();
@@ -220,7 +228,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToMenu6() throws IOException {
 		Stage firstStage = (Stage) menuButton6.getScene().getWindow();
@@ -234,7 +242,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToReviews1() throws IOException {
 		Stage firstStage = (Stage) reviewButton1.getScene().getWindow();
@@ -344,13 +352,24 @@ public class Controller {
 			reviewStatus.setText("Invalid Rating Value, Try Again");
 			return;
 		}
-		if (!(restaurantName.getText().equals("Blue's Egg")) && !(restaurantName.getText().equals("Cafe Benelux"))
-				&& !(restaurantName.getText().equals("Odd Duck"))
-				&& !(restaurantName.getText().equals("Calderone Club"))
-				&& !(restaurantName.getText().equals("Oakland Gyros"))
-				&& !(restaurantName.getText().equals("Jalisco's On North"))) {
-			reviewStatus.setText("Invalid Restaurant Name, Try Again");
-			return;
+		/*
+		 * if (!(restaurantName.getText().equals("Blue's Egg")) &&
+		 * !(restaurantName.getText().equals("Cafe Benelux")) &&
+		 * !(restaurantName.getText().equals("Odd Duck")) &&
+		 * !(restaurantName.getText().equals("Calderone Club")) &&
+		 * !(restaurantName.getText().equals("Oakland Gyros")) &&
+		 * !(restaurantName.getText().equals("Jalisco's On North")))
+		 */
+		boolean match = false;
+		for (int i = 0; i < restaurants.size(); i++) {
+			if (restaurantName.getText().equals(restaurants.get(i))) {
+				match = true;
+			}
+			//System.out.println(restaurants.get(i));
+			if (!match) {
+				reviewStatus.setText("Invalid Restaurant Name, Try Again");
+				return;
+			}
 		}
 		String review = writtenReview.getText();
 		int temp = 0;
