@@ -38,5 +38,12 @@
     <Button fx:id="beneluxBreakfast" font="$x1" layoutX="386.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBreakfast" prefHeight="34.0" prefWidth="139.71240234375" text="Breakfast" />
     <Button fx:id="beneluxKids" font="$x1" layoutX="566.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToKids" prefHeight="33.0465087890625" prefWidth="98.0" text="Kids" />
     <Button fx:id="beneluxDrinks" font="$x1" layoutX="704.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDrinks" prefHeight="33.0465087890625" prefWidth="98.0" text="Drinks" />
+    <Text fill="WHITE" layoutX="95.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Located in the heart of the vibrant Third Ward, Café Benelux celebrates ">
+      <font>
+        <Font size="20.0" fx:id="x2" />
+      </font>
+    </Text>
+    <Text fill="WHITE" font="$x2" layoutX="71.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the unique culture of Lowlands Europe with a massive, award-winning Belgian" />
+    <Text fill="WHITE" font="$x2" layoutX="39.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" bier selection, a full from-scratch menu, and Milwaukee’s most unique rooftop patio." />
   </children>
 </AnchorPane>
