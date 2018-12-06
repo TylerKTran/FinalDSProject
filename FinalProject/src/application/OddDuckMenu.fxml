@@ -33,10 +33,18 @@
         <Font size="18.0" fx:id="x1" />
       </font>
     </Button>
-        <Button id="beneluxLunchDinner" fx:id="oddDuckMenu" font="$x1" layoutX="29.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToMenu" prefHeight="34.0" prefWidth="107.0" text="Menu" />
-    	<Button id="beneluxBrunch" fx:id="oddDuckGlass" font="$x1" layoutX="160.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToGlass" prefHeight="34.0" prefWidth="185.0" text="Drinks by the Glass" />
-    	<Button id="beneluxBreakfast" fx:id="oddDuckBottle" font="$x1" layoutX="368.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBottle" prefHeight="34.0" prefWidth="170.0" text="Drinks by Bottles" />
-    	<Button id="beneluxKids" fx:id="oddDuckCocktails" font="$x1" layoutX="555.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToCocktails" prefHeight="34.0" prefWidth="107.0" text="Cocktails" />
-    	<Button id="beneluxDrinks" fx:id="oddDuckBeer" font="$x1" layoutX="685.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBeer" prefHeight="33.0465087890625" prefWidth="98.0" text="Beer" />
+    <Button id="beneluxLunchDinner" fx:id="oddDuckMenu" font="$x1" layoutX="29.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToMenu" prefHeight="34.0" prefWidth="107.0" text="Menu" />
+    <Button id="beneluxBrunch" fx:id="oddDuckGlass" font="$x1" layoutX="160.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToGlass" prefHeight="34.0" prefWidth="185.0" text="Drinks by the Glass" />
+    <Button id="beneluxBreakfast" fx:id="oddDuckBottle" font="$x1" layoutX="368.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBottle" prefHeight="34.0" prefWidth="170.0" text="Drinks by Bottles" />
+    <Button id="beneluxKids" fx:id="oddDuckCocktails" font="$x1" layoutX="555.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToCocktails" prefHeight="34.0" prefWidth="107.0" text="Cocktails" />
+    <Button id="beneluxDrinks" fx:id="oddDuckBeer" font="$x1" layoutX="685.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToBeer" prefHeight="33.0465087890625" prefWidth="98.0" text="Beer" />
+    <Text fill="WHITE" layoutX="164.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Odd duck is located in the Bay View area of Milwaukee">
+      <font>
+        <Font size="20.0" fx:id="x2" />
+      </font>
+    </Text>
+    <Text fill="WHITE" font="$x2" layoutX="152.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="serving an ever-changing small plates and shareable menu" />
+    <Text fill="WHITE" font="$x2" layoutX="206.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="inspired by local ingredients and world cuisine" />
+    <Text fill="WHITE" font="$x2" layoutX="133.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with dining options for vegetarians, vegans, &amp; omnivores alike!" />
   </children>
 </AnchorPane>

@@ -36,5 +36,14 @@
     <Button id="bluesEggBreakfast" fx:id="jaliscosAppetizers" font="$x1" layoutX="68.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToAppetizers" prefHeight="34.0" prefWidth="197.89404296875" text="Appetizers" />
     <Button id="bluesEggBrunch" fx:id="jaliscosEntrees" font="$x1" layoutX="310.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToEntrees" prefHeight="34.0" prefWidth="197.89404296875" text="Entrees" />
     <Button id="bluesEggSides" fx:id="jaliscosDrinks" font="$x1" layoutX="555.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDrinks" prefHeight="34.0" prefWidth="197.89404296875" text="Drinks" />
+    <Text fill="WHITE" layoutX="89.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For over thirty years, Jalisco Mexican Restaurant has been serving classic ">
+      <font>
+        <Font size="20.0" fx:id="x2" />
+      </font>
+    </Text>
+    <Text fill="WHITE" font="$x2" layoutX="85.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Mexican &amp; Seafood cuisine. We pride ourselves in serving delicious food," />
+    <Text fill="WHITE" font="$x2" layoutX="135.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" tasty cocktails, and providing a great &amp; affordable time for all " />
+    <Text fill="WHITE" font="$x2" layoutX="97.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="who visit Jalisco's On North! So, whether your North Avenue adventure" />
+    <Text fill="WHITE" font="$x2" layoutX="107.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="starts or ends here, you will be happy to have us along for the ride." />
   </children>
 </AnchorPane>
