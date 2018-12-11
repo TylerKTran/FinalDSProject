@@ -45,5 +45,10 @@
     </Text>
     <Text fill="WHITE" font="$x2" layoutX="71.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the unique culture of Lowlands Europe with a massive, award-winning Belgian" />
     <Text fill="WHITE" font="$x2" layoutX="39.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" bier selection, a full from-scratch menu, and Milwaukee’s most unique rooftop patio." />
+          <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>
