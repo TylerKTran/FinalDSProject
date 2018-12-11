@@ -84,5 +84,10 @@
         <Image url="@../../../BluesEggMenu/BluesEggDrinks/BluesEggSoftDrink.PNG" />
       </image>
     </ImageView>
+            <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>

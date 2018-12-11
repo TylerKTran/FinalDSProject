@@ -101,7 +101,8 @@ public class Controller {
 	@FXML
 	private Button menuButton6;
 	@FXML
-
+	private Button logOut;
+	
 	private ArrayList<String> restaurants;
 	private ArrayList<Account> accounts;
 
@@ -147,6 +148,20 @@ public class Controller {
 			loginStatus.setText("Login Failed, Try Again");
 		}
 
+	}
+
+	@FXML
+	public void logOut(ActionEvent event) throws IOException {
+		Stage firstStage = (Stage) logOut.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "LoginPage.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
 	}
 
 	@FXML

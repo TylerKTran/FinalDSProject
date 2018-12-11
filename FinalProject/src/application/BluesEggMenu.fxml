@@ -49,5 +49,10 @@
     <Text fill="WHITE" font="$x2" layoutX="149.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue's does not accept to-go orders on Sunday or Saturday." />
     <Text fill="WHITE" font="$x2" layoutX="117.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We may refuse takeout orders at other times, based on our ability " />
     <Text fill="WHITE" font="$x2" layoutX="170.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to serve our in-house guests the best possible brunch." />
+        <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>

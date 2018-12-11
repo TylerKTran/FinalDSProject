@@ -39,12 +39,12 @@
         <Font name="Leelawadee UI Bold" size="12.0" fx:id="x1" />
       </font>
     </Text>
-    <Button id="menuButton1" fx:id="menuButton1" layoutX="318.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToMenu1" text="Menu" />
-    <Button id="menuButton6" fx:id="menuButton6" layoutX="736.0" layoutY="488.0" mnemonicParsing="false" onAction="#goToMenu6" text="Menu" />
-    <Button id="menuButton4" fx:id="menuButton4" layoutX="736.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToMenu4" text="Menu" />
-    <Button id="menuButton2" fx:id="menuButton2" layoutX="736.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToMenu2" text="Menu" />
-    <Button id="menuButton5" fx:id="menuButton5" layoutX="319.0" layoutY="488.0" mnemonicParsing="false" onAction="#goToMenu5" text="Menu" />
-    <Button id="menuButton3" fx:id="menuButton3" layoutX="318.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToMenu3" text="Menu" />
+    <Button fx:id="menuButton1" layoutX="318.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToMenu1" text="Menu" />
+    <Button fx:id="menuButton6" layoutX="736.0" layoutY="488.0" mnemonicParsing="false" onAction="#goToMenu6" text="Menu" />
+    <Button fx:id="menuButton4" layoutX="736.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToMenu4" text="Menu" />
+    <Button fx:id="menuButton2" layoutX="736.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToMenu2" text="Menu" />
+    <Button fx:id="menuButton5" layoutX="319.0" layoutY="488.0" mnemonicParsing="false" onAction="#goToMenu5" text="Menu" />
+    <Button fx:id="menuButton3" layoutX="318.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToMenu3" text="Menu" />
     <Text id="restaurantTitle" font="$x1" layoutX="581.0" layoutY="433.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Jalisco's On North" />
     <Text id="restaurantTitle" font="$x1" layoutX="578.0" layoutY="315.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Calderone Club" />
     <Text id="restaurantTitle" font="$x1" layoutX="576.0" layoutY="199.0" scaleX="1.316353800987957" scaleY="0.9619347627795092" strokeType="OUTSIDE" strokeWidth="0.0" text="Cafe Benelux" />
@@ -145,5 +145,10 @@
         <Image url="@../../../full-star.png" />
       </image>
     </ImageView>
+    <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>

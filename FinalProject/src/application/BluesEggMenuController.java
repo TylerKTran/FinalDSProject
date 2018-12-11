@@ -62,6 +62,8 @@ package application;
 		private Button bluesEggDrinks;
 		@FXML
 		private Button bluesEggSpecial;
+		@FXML
+		private Button logOut;
 		
 		public BluesEggMenuController() {
 
@@ -165,4 +167,18 @@ package application;
 			stage.show();
 		}
 
+		@FXML
+		public void logOut(ActionEvent event) throws IOException {
+			Stage firstStage = (Stage) logOut.getScene().getWindow();
+			firstStage.close();
+			String fxmlResource = "LoginPage.fxml";
+			Parent panel;
+			panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+			Scene scene = new Scene(panel);
+			Stage stage = new Stage();
+			stage.setTitle("RestaurantAdvisor");
+			stage.setScene(scene);
+			stage.show();
+		}
+		
 }
