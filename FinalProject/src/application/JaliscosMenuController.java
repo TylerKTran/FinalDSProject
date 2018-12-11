@@ -1,4 +1,5 @@
 package application;
+
 import java.util.ArrayList;
 import java.io.IOException;
 import javafx.event.ActionEvent;
@@ -46,7 +47,6 @@ import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.TextArea;
 import javafx.scene.Node;
 
-
 public class JaliscosMenuController {
 	@FXML
 	private Button backButton;
@@ -56,7 +56,9 @@ public class JaliscosMenuController {
 	private Button jaliscosEntrees;
 	@FXML
 	private Button jaliscosDrinks;
-	
+	@FXML
+	private Button logOut;
+
 	public JaliscosMenuController() {
 
 	}
@@ -88,7 +90,7 @@ public class JaliscosMenuController {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToEntrees() throws IOException {
 		Stage firstStage = (Stage) jaliscosEntrees.getScene().getWindow();
@@ -102,12 +104,26 @@ public class JaliscosMenuController {
 		stage.setScene(scene);
 		stage.show();
 	}
-	
+
 	@FXML
 	public void goToDrinks() throws IOException {
 		Stage firstStage = (Stage) jaliscosDrinks.getScene().getWindow();
 		firstStage.close();
 		String fxmlResource = "JaliscosDrinks.fxml";
+		Parent panel;
+		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+		Scene scene = new Scene(panel);
+		Stage stage = new Stage();
+		stage.setTitle("RestaurantAdvisor");
+		stage.setScene(scene);
+		stage.show();
+	}
+
+	@FXML
+	public void logOut(ActionEvent event) throws IOException {
+		Stage firstStage = (Stage) logOut.getScene().getWindow();
+		firstStage.close();
+		String fxmlResource = "LoginPage.fxml";
 		Parent panel;
 		panel = FXMLLoader.load(getClass().getResource(fxmlResource));
 		Scene scene = new Scene(panel);

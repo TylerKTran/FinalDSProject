@@ -60,6 +60,8 @@ package application;
 		private Button beneluxKids;
 		@FXML
 		private Button beneluxDrinks;
+		@FXML
+		private Button logOut;
 		
 		public CafeBeneluxMenuController() {
 
@@ -149,4 +151,18 @@ package application;
 			stage.show();
 		}
 
+		@FXML
+		public void logOut(ActionEvent event) throws IOException {
+			Stage firstStage = (Stage) logOut.getScene().getWindow();
+			firstStage.close();
+			String fxmlResource = "LoginPage.fxml";
+			Parent panel;
+			panel = FXMLLoader.load(getClass().getResource(fxmlResource));
+			Scene scene = new Scene(panel);
+			Stage stage = new Stage();
+			stage.setTitle("RestaurantAdvisor");
+			stage.setScene(scene);
+			stage.show();
+		}
+		
 }
