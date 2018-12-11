@@ -38,5 +38,10 @@
     <Button id="beneluxBreakfast" fx:id="oaklandGyrosPlatters" font="$x1" layoutX="381.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToPlatters" prefHeight="34.0" prefWidth="98.0" text="Platters" />
     <Button id="beneluxKids" fx:id="oaklandGyrosSides" font="$x1" layoutX="522.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToSides" prefHeight="33.0465087890625" prefWidth="98.0" text="Sides" />
     <Button id="beneluxDrinks" fx:id="oaklandGyrosDesserts" font="$x1" layoutX="663.0" layoutY="189.0" minHeight="33.0465087890625" mnemonicParsing="false" onAction="#goToDesserts" prefHeight="33.0465087890625" prefWidth="98.0" text="Desserts" />
+          <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>

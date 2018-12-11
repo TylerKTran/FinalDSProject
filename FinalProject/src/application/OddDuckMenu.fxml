@@ -46,5 +46,10 @@
     <Text fill="WHITE" font="$x2" layoutX="152.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="serving an ever-changing small plates and shareable menu" />
     <Text fill="WHITE" font="$x2" layoutX="206.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="inspired by local ingredients and world cuisine" />
     <Text fill="WHITE" font="$x2" layoutX="133.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with dining options for vegetarians, vegans, &amp; omnivores alike!" />
+          <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>

@@ -47,5 +47,10 @@
     <Text fill="WHITE" font="$x2" layoutX="85.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="downtown location! Our hand-crafted entrees, made from scratch pastas, " />
     <Text fill="WHITE" font="$x2" layoutX="96.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and award-winning Neapolitan thin-crust pizzas are sure to please and " />
     <Text fill="WHITE" font="$x2" layoutX="140.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="our extensive wine and beverage menu can satisfy all palates!" />
+          <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>

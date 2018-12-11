@@ -107,6 +107,11 @@
             </Text>
             <Button fx:id="backButton" font="$x4" layoutX="651.0" layoutY="472.0" mnemonicParsing="false" onAction="#goHome" prefHeight="39.0" prefWidth="150.0" text="Back To Home" />
             <Text font="$x1" layoutX="35.0" layoutY="358.0" scaleX="1.5913616593291322" scaleY="1.52581140743733" strokeType="OUTSIDE" strokeWidth="0.0" text="\$$" />
+                  <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
           </children>
         </AnchorPane>
       </children>

@@ -45,5 +45,10 @@
     <Text fill="WHITE" font="$x2" layoutX="135.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" tasty cocktails, and providing a great &amp; affordable time for all " />
     <Text fill="WHITE" font="$x2" layoutX="97.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="who visit Jalisco's On North! So, whether your North Avenue adventure" />
     <Text fill="WHITE" font="$x2" layoutX="107.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="starts or ends here, you will be happy to have us along for the ride." />
+          <Button fx:id="logOut" layoutX="669.0" layoutY="14.0" minHeight="48.0" mnemonicParsing="false" onAction="#logOut" prefHeight="48.0" prefWidth="131.511474609375" text="Log out">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Button>
   </children>
 </AnchorPane>
